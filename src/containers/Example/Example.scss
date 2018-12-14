@@ -1,0 +1,46 @@
+
+.p{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1; 
+}
+.c{
+   margin: 0;
+   padding: 0;
+   width: 100px;
+   height: 100px;
+   position: relative;                                     
+   top: 50;
+   left: 50;
+}
+.p-1{
+    top: 50px;
+    left: 50px;
+    background: red;
+    position: fixed;
+}
+.p-2{
+    top: 100px;
+    left: 100px;
+    background: blue;
+    position: relative;
+}
+.p-3{
+    top: 150px;
+    left: 150px;
+    background: green;
+    position: absolute;
+}
+.c-1{
+    background: pink;
+    z-index: 9;
+}
+.c-2{
+    background:palegoldenrod;
+    z-index: 8;
+}
+.c-3{
+    background:rgb(163, 209, 209);
+    z-index: 4;
+}
